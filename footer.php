@@ -19,7 +19,7 @@
     <script src="./assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="./assets/libs/slick/slick.min.js"></script>
     <script src="./assets/js/main.js"></script>
-
+    <?php wp_footer(); ?>
 </body>
 
 </html>  

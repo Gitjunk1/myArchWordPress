@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/normolize.css">
+    <!-- <link rel="stylesheet" href="./assets/css/normolize.css">
     <link rel="stylesheet" href="./assets/libs/mafnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="./assets/libs/slick/slick.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css"> -->
     <title>my-arch</title>
     <?php wp_head(); ?>
 </head>
@@ -15,7 +15,7 @@
 <body>
     <header class="header">
         <div class="header__navigation">
-            <img class="header__logo logo" src="./assets/images/logo-arch.svg" alt="">
+            <img class="header__logo logo" src="<?php bloginfo('template_url' ); ?>/assets/images/logo-arch.svg" alt="">
             <nav class="header__nav nav">
                 <ul class="nav__list">
                     <li class="nav__list-item"> <a class="nav__link" href="">Design Gallery</a></li>

@@ -78,6 +78,11 @@ h1, h2 {
     align-items: center;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: #585858;
+}
+
 .header__autorization {
     display: flex;
 }
@@ -303,7 +308,7 @@ h1, h2 {
     left: -110px;
 }
 
-.reviews__text {
+.review__text {
     font-size: 32px;
     font-family: "SFUIDisplay-Light", serif;
     line-height: 160%;
@@ -312,11 +317,11 @@ h1, h2 {
     margin-bottom: 60px;
 }
 
-.reviews__author {
+.review__author {
     margin-bottom: 11px;
 }
 
-.reviews__author-name {
+.review__author-name {
     font-family: "SFUIDisplay-Bold", serif;
 }
 
