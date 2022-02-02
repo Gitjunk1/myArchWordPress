@@ -27,7 +27,7 @@
         </div>
 
         <div class="header__autorization">
-            <img class="header__search" src="./assets/images/ic-search.svg" alt="">
+            <img class="header__search" src="<?php echo IMG_DIR; ?>/ic-search.svg" alt="">
             <button class="header__btn header__btn--sign-in">Sign In</button>
             <button class="header__btn header__btn--sign-up">Sign Up</button>
         </div>

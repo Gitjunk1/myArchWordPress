@@ -12,7 +12,7 @@
                     </p>
                     <button class="btn main__btn">Free Consultation</button>
                 </div>
-                <img class="main__img" src="./assets/images/main-img.png" alt="">
+                <img class="main__img" src="<?php echo IMG_DIR; ?>/main-img.png" alt="">
             </div>
         </div>
     </section>
@@ -21,18 +21,18 @@
         <div class="container">
             <h2 class="gallery__title title">Build professional valuable room for you</h2>
             <div class="gallery__inner">
-                <a href="./assets/images/img-1.png" title="image-1" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-1.png" alt=""></a>
-                <a href="./assets/images/img-2.png" title="image-2" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-2.png" alt=""></a>
-                <a href="./assets/images/img-3.png" title="image-3" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-3.png" alt=""></a>
-                <a href="./assets/images/img-4.png" title="image-4" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-4.png" alt=""></a>
-                <a href="./assets/images/img-1.png" title="image-1" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-1.png" alt=""></a>
-                <a href="./assets/images/img-2.png" title="image-2" class="gallery__link"> <img class="gallery__img"
-                        src="./assets/images/img-2.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-1.png" title="image-1" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-1.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-2.png" title="image-2" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-2.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-3.png" title="image-3" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-3.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-4.png" title="image-4" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-4.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-1.png" title="image-1" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-1.png" alt=""></a>
+                <a href="<?php echo IMG_DIR; ?>/img-2.png" title="image-2" class="gallery__link"> <img class="gallery__img"
+                        src="<?php echo IMG_DIR; ?>/img-2.png" alt=""></a>
             </div>
         </div>
     </section>
@@ -41,12 +41,12 @@
         <div class="container">
             <h2 class="features__title title">Build your needs with Archmove</h2>
             <div class="features__inner">
-                <img class="features__img" src="./assets/images/img-6.png" alt="">
+                <img class="features__img" src="<?php echo IMG_DIR; ?>/img-6.png" alt="">
                 <div class="features__wrapper">
 
                 <div class="features__feature feature">
                     <div class="features__icon-box">
-                        <img class="features__icon" src="./assets/images/icon1.png" alt="">
+                        <img class="features__icon" src="<?php echo IMG_DIR; ?>/icon1.png" alt="">
                     </div>
                     <div class="feature__info">
                         <h3 class="feature__title">100% guaranteed project completion</h3>
@@ -57,7 +57,7 @@
 
                 <div class="features__feature feature">
                     <div class="features__icon-box">
-                        <img class="feature__icon" src="./assets/images/icon2.png" alt="">
+                        <img class="feature__icon" src="<?php echo IMG_DIR; ?>/icon2.png" alt="">
                     </div>
                     <div class="feature__info">
                         <h3 class="feature__title">No additional fees</h3>
@@ -68,7 +68,7 @@
 
                 <div class="features__feature feature">
                     <div class="features__icon-box">
-                        <img class="feature__icon" src="./assets/images/icon3.png" alt="">
+                        <img class="feature__icon" src="<?php echo IMG_DIR; ?>/icon3.png" alt="">
                     </div>
                     <div class="feature__info">
                         <h3 class="feature__title">Get escort from the Team</h3>
@@ -94,7 +94,7 @@
                             receive feedback from people from all over the U.S. and even further.
                         </p>
                         <div class="review__author">
-                            <span class="review__author-name">Adam Morph"></span> - <span class="review__author-prof">CEO Alfatech</span>
+                            <span class="review__author-name">Adam Morph</span> - <span class="review__author-prof">CEO Alfatech</span>
                         </div>
                     </div>
 
@@ -105,7 +105,7 @@
                             receive feedback from people from all over the U.S. and even further.
                         </p>
                         <div class="review__author">
-                            <span class="review__author-name">Adam Morph"></span> - <span class="review__author-prof">CEO Alfatech</span>
+                            <span class="review__author-name">Adam Morph</span> - <span class="review__author-prof">CEO Alfatech</span>
                         </div>
                     </div>
 
@@ -116,14 +116,14 @@
                             receive feedback from people from all over the U.S. and even further.
                         </p>
                         <div class="review__author">
-                            <span class="review__author-name">Adam Morph"></span> - <span class="review__author-prof">CEO Alfatech</span>
+                            <span class="review__author-name">Adam Morph</span> - <span class="review__author-prof">CEO Alfatech</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="reviews-bottom">
-                <img class="reviews-_img" src="./assets/images/house.png" alt="">
+                <img class="reviews-_img" src="<?php echo IMG_DIR; ?>/house.png" alt="">
                 <div class="reviews__inner">
                     <h2 class="reviews-bottom__title title">Realize your dream project with  <span>Archmove</span></h2>
                     <button class="btn">FREE CONSULTATION</button>
@@ -137,14 +137,14 @@
             <div class="partners__inner">
                 <h2 class="partners__title title">Our Partners</h2>
                 <div class="partners__wrapper">
-                    <img class="partners__img" src="./assets/images/partner-1.png" alt="">
-                    <img class="partners__img" src="./assets/images/partner-2.png" alt="">
-                    <img class="partners__img" src="./assets/images/partner-3.png" alt="">
-                    <img class="partners__img" src="./assets/images/partner-4.png" alt="">
-                    <img class="partners__img" src="./assets/images/partner-5.png" alt="">
+                    <img class="partners__img" src="<?php echo IMG_DIR; ?>/partner-1.png" alt="">
+                    <img class="partners__img" src="<?php echo IMG_DIR; ?>/partner-2.png" alt="">
+                    <img class="partners__img" src="<?php echo IMG_DIR; ?>/partner-3.png" alt="">
+                    <img class="partners__img" src="<?php echo IMG_DIR; ?>/partner-4.png" alt="">
+                    <img class="partners__img" src="<?php echo IMG_DIR; ?>/partner-5.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
